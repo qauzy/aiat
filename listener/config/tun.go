@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/netip"
 
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/qauzy/aiat/constant"
 
 	"gopkg.in/yaml.v3"
 )

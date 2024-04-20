@@ -348,7 +348,7 @@ $ systemctl start Clash-Meta
 ## Development
 
 If you want to build an application that uses clash as a library, check out
-the [GitHub Wiki](https://github.com/Dreamacro/clash/wiki/use-clash-as-a-library)
+the [GitHub Wiki](https://github.com/qauzy/aiat/wiki/use-clash-as-a-library)
 
 ## Debugging
 
@@ -357,7 +357,7 @@ API.
 
 ## Credits
 
-- [Dreamacro/clash](https://github.com/Dreamacro/clash)
+- [Dreamacro/clash](https://github.com/qauzy/aiat)
 - [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - [riobard/go-shadowsocks2](https://github.com/riobard/go-shadowsocks2)
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core)

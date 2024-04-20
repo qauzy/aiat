@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/transport/hysteria/obfs"
 
 	"github.com/zhangyunhao116/fastrand"
 )

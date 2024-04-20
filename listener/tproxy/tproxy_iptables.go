@@ -6,9 +6,9 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/Dreamacro/clash/common/cmd"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/common/cmd"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/log"
 )
 
 var (

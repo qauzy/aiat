@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/hub/executor"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

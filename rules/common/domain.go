@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type Domain struct {

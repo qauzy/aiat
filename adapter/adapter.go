@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/common/queue"
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/common/queue"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/component/dialer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/puzpuzpuz/xsync/v2"
 )

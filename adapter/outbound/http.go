@@ -13,11 +13,11 @@ import (
 	"net/http"
 	"strconv"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/ca"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/ca"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type Http struct {

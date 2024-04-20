@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/common/batch"
-	"github.com/Dreamacro/clash/common/singledo"
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/common/batch"
+	"github.com/qauzy/aiat/common/singledo"
+	"github.com/qauzy/aiat/common/utils"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/dlclark/regexp2"
 )

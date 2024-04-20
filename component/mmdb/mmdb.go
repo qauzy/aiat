@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	clashHttp "github.com/Dreamacro/clash/component/http"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	clashHttp "github.com/qauzy/aiat/component/http"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/oschwald/maxminddb-golang"
 )

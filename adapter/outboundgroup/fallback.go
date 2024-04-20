@@ -6,13 +6,13 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/common/callback"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
+	"github.com/qauzy/aiat/adapter/outbound"
+	"github.com/qauzy/aiat/common/callback"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/component/dialer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/provider"
 )
 
 type Fallback struct {

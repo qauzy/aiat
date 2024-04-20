@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Dreamacro/clash/common/buf"
+	"github.com/qauzy/aiat/common/buf"
 )
 
 type refConn struct {

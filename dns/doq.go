@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/component/ca"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
 	"github.com/metacubex/quic-go"
+	"github.com/qauzy/aiat/component/ca"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 
 	D "github.com/miekg/dns"
 )

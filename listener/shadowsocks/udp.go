@@ -3,13 +3,13 @@ package shadowsocks
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/sockopt"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/qauzy/aiat/adapter/inbound"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/sockopt"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/transport/shadowsocks/core"
+	"github.com/qauzy/aiat/transport/socks5"
 )
 
 type UDPListener struct {

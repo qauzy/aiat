@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/cache"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/trie"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/sniffer"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/common/cache"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/trie"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/sniffer"
+	"github.com/qauzy/aiat/log"
 )
 
 var (

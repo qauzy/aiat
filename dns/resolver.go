@@ -7,15 +7,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/common/cache"
-	"github.com/Dreamacro/clash/component/fakeip"
-	"github.com/Dreamacro/clash/component/geodata/router"
-	"github.com/Dreamacro/clash/component/resolver"
-	"github.com/Dreamacro/clash/component/trie"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/common/cache"
+	"github.com/qauzy/aiat/component/fakeip"
+	"github.com/qauzy/aiat/component/geodata/router"
+	"github.com/qauzy/aiat/component/resolver"
+	"github.com/qauzy/aiat/component/trie"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/aiat/log"
 
 	D "github.com/miekg/dns"
 	"golang.org/x/sync/singleflight"
@@ -200,7 +200,7 @@ func (r *Resolver) exchangeWithoutCache(ctx context.Context, m *D.Msg) (msg *D.M
 
 		isIPReq := isIPRequest(q)
 		if isIPReq {
-			cache=true
+			cache = true
 			return r.ipExchange(ctx, m)
 		}
 

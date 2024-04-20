@@ -13,32 +13,32 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter"
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/adapter/outboundgroup"
-	"github.com/Dreamacro/clash/adapter/provider"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/component/auth"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/fakeip"
-	"github.com/Dreamacro/clash/component/geodata"
-	"github.com/Dreamacro/clash/component/geodata/router"
-	P "github.com/Dreamacro/clash/component/process"
-	"github.com/Dreamacro/clash/component/resolver"
-	SNIFF "github.com/Dreamacro/clash/component/sniffer"
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	"github.com/Dreamacro/clash/component/trie"
-	C "github.com/Dreamacro/clash/constant"
-	providerTypes "github.com/Dreamacro/clash/constant/provider"
-	snifferTypes "github.com/Dreamacro/clash/constant/sniffer"
-	"github.com/Dreamacro/clash/dns"
-	L "github.com/Dreamacro/clash/listener"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/log"
-	R "github.com/Dreamacro/clash/rules"
-	RP "github.com/Dreamacro/clash/rules/provider"
-	T "github.com/Dreamacro/clash/tunnel"
+	"github.com/qauzy/aiat/adapter"
+	"github.com/qauzy/aiat/adapter/outbound"
+	"github.com/qauzy/aiat/adapter/outboundgroup"
+	"github.com/qauzy/aiat/adapter/provider"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/component/auth"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/fakeip"
+	"github.com/qauzy/aiat/component/geodata"
+	"github.com/qauzy/aiat/component/geodata/router"
+	P "github.com/qauzy/aiat/component/process"
+	"github.com/qauzy/aiat/component/resolver"
+	SNIFF "github.com/qauzy/aiat/component/sniffer"
+	tlsC "github.com/qauzy/aiat/component/tls"
+	"github.com/qauzy/aiat/component/trie"
+	C "github.com/qauzy/aiat/constant"
+	providerTypes "github.com/qauzy/aiat/constant/provider"
+	snifferTypes "github.com/qauzy/aiat/constant/sniffer"
+	"github.com/qauzy/aiat/dns"
+	L "github.com/qauzy/aiat/listener"
+	LC "github.com/qauzy/aiat/listener/config"
+	"github.com/qauzy/aiat/log"
+	R "github.com/qauzy/aiat/rules"
+	RP "github.com/qauzy/aiat/rules/provider"
+	T "github.com/qauzy/aiat/tunnel"
 
 	"gopkg.in/yaml.v3"
 )
@@ -459,9 +459,9 @@ func UnmarshalRawConfig(buf []byte) (*RawConfig, error) {
 			StoreSelected: true,
 		},
 		GeoXUrl: GeoXUrl{
-			Mmdb:    "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb",
-			GeoIp:   "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat",
-			GeoSite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat",
+			Mmdb:    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash/geoip.metadb",
+			GeoIp:   "https://mirror.ghproxy.com/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash/geoip.dat",
+			GeoSite: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash/geosite.dat",
 		},
 		ExternalUIURL: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
 	}

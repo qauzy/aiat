@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync"
 
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/qauzy/aiat/constant"
 
 	"github.com/puzpuzpuz/xsync/v2"
 )

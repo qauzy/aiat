@@ -3,7 +3,7 @@ package geodata
 import (
 	"strings"
 
-	"github.com/Dreamacro/clash/component/geodata/router"
+	"github.com/qauzy/aiat/component/geodata/router"
 )
 
 type AttributeList struct {

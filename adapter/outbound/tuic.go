@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Dreamacro/clash/component/ca"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/tuic"
+	"github.com/qauzy/aiat/component/ca"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	"github.com/qauzy/aiat/component/resolver"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/transport/tuic"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/metacubex/quic-go"

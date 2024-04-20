@@ -3,9 +3,9 @@ package sniffer
 import (
 	"errors"
 
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/sniffer"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/sniffer"
 )
 
 type SnifferConfig struct {

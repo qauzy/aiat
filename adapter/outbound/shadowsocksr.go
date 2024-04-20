@@ -7,16 +7,16 @@ import (
 	"net"
 	"strconv"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
-	"github.com/Dreamacro/clash/transport/shadowsocks/shadowaead"
-	"github.com/Dreamacro/clash/transport/shadowsocks/shadowstream"
-	"github.com/Dreamacro/clash/transport/socks5"
-	"github.com/Dreamacro/clash/transport/ssr/obfs"
-	"github.com/Dreamacro/clash/transport/ssr/protocol"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/transport/shadowsocks/core"
+	"github.com/qauzy/aiat/transport/shadowsocks/shadowaead"
+	"github.com/qauzy/aiat/transport/shadowsocks/shadowstream"
+	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/aiat/transport/ssr/obfs"
+	"github.com/qauzy/aiat/transport/ssr/protocol"
 )
 
 type ShadowSocksR struct {
@@ -125,7 +125,7 @@ func (ssr *ShadowSocksR) SupportWithDialer() C.NetWork {
 
 func NewShadowSocksR(option ShadowSocksROption) (*ShadowSocksR, error) {
 	// SSR protocol compatibility
-	// https://github.com/Dreamacro/clash/pull/2056
+	// https://github.com/qauzy/aiat/pull/2056
 	if option.Cipher == "none" {
 		option.Cipher = "dummy"
 	}

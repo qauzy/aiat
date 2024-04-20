@@ -1,10 +1,10 @@
 package inbound
 
 import (
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/listener/sing_shadowsocks"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/qauzy/aiat/constant"
+	LC "github.com/qauzy/aiat/listener/config"
+	"github.com/qauzy/aiat/listener/sing_shadowsocks"
+	"github.com/qauzy/aiat/log"
 )
 
 type ShadowSocksOption struct {

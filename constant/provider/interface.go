@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/constant"
 )
 
 // Vehicle Type

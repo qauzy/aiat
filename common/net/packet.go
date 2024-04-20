@@ -1,8 +1,8 @@
 package net
 
 import (
-	"github.com/Dreamacro/clash/common/net/deadline"
-	"github.com/Dreamacro/clash/common/net/packet"
+	"github.com/qauzy/aiat/common/net/deadline"
+	"github.com/qauzy/aiat/common/net/packet"
 )
 
 type EnhancePacketConn = packet.EnhancePacketConn

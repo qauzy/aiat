@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
+	"github.com/qauzy/aiat/common/atomic"
 
 	"github.com/stretchr/testify/assert"
 )

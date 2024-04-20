@@ -6,8 +6,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/Dreamacro/clash/component/ca"
-	tlsC "github.com/Dreamacro/clash/component/tls"
+	"github.com/qauzy/aiat/component/ca"
+	tlsC "github.com/qauzy/aiat/component/tls"
 )
 
 type TLSConfig struct {

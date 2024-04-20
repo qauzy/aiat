@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/Dreamacro/clash/constant/features"
+	"github.com/qauzy/aiat/constant/features"
 	"os"
 	"os/signal"
 	"path/filepath"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Dreamacro/clash/config"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/config"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/hub"
+	"github.com/qauzy/aiat/hub/executor"
+	"github.com/qauzy/aiat/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )
@@ -52,7 +52,7 @@ func init() {
 func main() {
 	_, _ = maxprocs.Set(maxprocs.Logger(func(string, ...any) {}))
 	if version {
-		fmt.Printf("Clash Meta %s %s %s with %s %s\n",
+		fmt.Printf("Meta %s %s %s with %s %s\n",
 			C.Version, runtime.GOOS, runtime.GOARCH, runtime.Version(), C.BuildTime)
 		if len(features.TAGS) != 0 {
 			fmt.Printf("Use tags: %s\n", strings.Join(features.TAGS, ", "))

@@ -3,11 +3,11 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 
-	"github.com/Dreamacro/clash/listener/mixed"
-	"github.com/Dreamacro/clash/listener/socks"
+	"github.com/qauzy/aiat/listener/mixed"
+	"github.com/qauzy/aiat/listener/socks"
 )
 
 type MixedOption struct {

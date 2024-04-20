@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Dreamacro/clash/component/geodata"
-	"github.com/Dreamacro/clash/component/geodata/router"
-	"github.com/Dreamacro/clash/component/mmdb"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/component/geodata"
+	"github.com/qauzy/aiat/component/geodata/router"
+	"github.com/qauzy/aiat/component/mmdb"
+	"github.com/qauzy/aiat/component/resolver"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 )
 
 type GEOIP struct {

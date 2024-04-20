@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/component/ca"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/listener/inner"
+	"github.com/qauzy/aiat/component/ca"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/listener/inner"
 )
 
 func HttpRequest(ctx context.Context, url, method string, header map[string][]string, body io.Reader) (*http.Response, error) {

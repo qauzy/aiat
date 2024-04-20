@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/component/dialer"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/component/dialer"
 )
 
 // Adapter Type

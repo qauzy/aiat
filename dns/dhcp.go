@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/component/dhcp"
-	"github.com/Dreamacro/clash/component/iface"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/component/dhcp"
+	"github.com/qauzy/aiat/component/iface"
+	"github.com/qauzy/aiat/component/resolver"
 
 	D "github.com/miekg/dns"
 )

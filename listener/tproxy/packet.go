@@ -6,10 +6,10 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	"github.com/Dreamacro/clash/common/pool"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/adapter/inbound"
+	"github.com/qauzy/aiat/common/pool"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 )
 
 type packet struct {

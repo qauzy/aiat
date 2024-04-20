@@ -1,4 +1,4 @@
-module github.com/Dreamacro/clash
+module github.com/qauzy/aiat
 
 go 1.20
 

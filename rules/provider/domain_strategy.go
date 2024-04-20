@@ -1,9 +1,9 @@
 package provider
 
 import (
-	"github.com/Dreamacro/clash/component/trie"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/component/trie"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 )
 
 type domainStrategy struct {

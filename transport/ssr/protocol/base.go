@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
+	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/transport/shadowsocks/core"
 
 	"github.com/zhangyunhao116/fastrand"
 )

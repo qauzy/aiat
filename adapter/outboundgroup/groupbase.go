@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	types "github.com/Dreamacro/clash/constant/provider"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/qauzy/aiat/adapter/outbound"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/common/utils"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/provider"
+	types "github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/tunnel"
 
 	"github.com/dlclark/regexp2"
 )

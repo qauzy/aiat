@@ -9,12 +9,12 @@ import (
 	"net"
 	"strconv"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/ca"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/ca"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/transport/socks5"
 )
 
 type Socks5 struct {

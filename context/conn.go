@@ -1,11 +1,11 @@
 package context
 
 import (
-	"github.com/Dreamacro/clash/common/utils"
+	"github.com/qauzy/aiat/common/utils"
 	"net"
 
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
+	N "github.com/qauzy/aiat/common/net"
+	C "github.com/qauzy/aiat/constant"
 
 	"github.com/gofrs/uuid/v5"
 )

@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/common/net/packet"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/common/net/packet"
 )
 
 type readResult struct {

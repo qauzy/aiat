@@ -6,13 +6,13 @@ import (
 	"net"
 	"strconv"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/structure"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
-	obfs "github.com/Dreamacro/clash/transport/simple-obfs"
-	"github.com/Dreamacro/clash/transport/snell"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/structure"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
+	obfs "github.com/qauzy/aiat/transport/simple-obfs"
+	"github.com/qauzy/aiat/transport/snell"
 )
 
 type Snell struct {

@@ -6,8 +6,8 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/adapter/inbound"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type Base struct {

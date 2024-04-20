@@ -3,9 +3,9 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/listener/tproxy"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/listener/tproxy"
+	"github.com/qauzy/aiat/log"
 )
 
 type TProxyOption struct {

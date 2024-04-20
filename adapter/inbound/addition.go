@@ -1,7 +1,7 @@
 package inbound
 
 import (
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type Addition func(metadata *C.Metadata)

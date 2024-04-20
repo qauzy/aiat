@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	clashHttp "github.com/Dreamacro/clash/component/http"
-	"github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	clashHttp "github.com/qauzy/aiat/component/http"
+	"github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/klauspost/cpuid/v2"
 )

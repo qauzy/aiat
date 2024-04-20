@@ -12,16 +12,16 @@ import (
 
 	"github.com/jpillora/backoff"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/nat"
-	P "github.com/Dreamacro/clash/component/process"
-	"github.com/Dreamacro/clash/component/resolver"
-	"github.com/Dreamacro/clash/component/sniffer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	icontext "github.com/Dreamacro/clash/context"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/nat"
+	P "github.com/qauzy/aiat/component/process"
+	"github.com/qauzy/aiat/component/resolver"
+	"github.com/qauzy/aiat/component/sniffer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/provider"
+	icontext "github.com/qauzy/aiat/context"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/tunnel/statistic"
 )
 
 var (

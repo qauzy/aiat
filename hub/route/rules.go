@@ -1,10 +1,10 @@
 package route
 
 import (
-	"github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/constant"
 	"net/http"
 
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/qauzy/aiat/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

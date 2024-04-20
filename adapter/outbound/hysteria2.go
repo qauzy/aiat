@@ -9,12 +9,12 @@ import (
 	"runtime"
 	"strconv"
 
-	CN "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/ca"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
-	tuicCommon "github.com/Dreamacro/clash/transport/tuic/common"
+	CN "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/ca"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
+	tuicCommon "github.com/qauzy/aiat/transport/tuic/common"
 
 	"github.com/metacubex/sing-quic/hysteria2"
 

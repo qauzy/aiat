@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	atomic2 "github.com/Dreamacro/clash/common/atomic"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/pool"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/tuic/common"
+	atomic2 "github.com/qauzy/aiat/common/atomic"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/pool"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/transport/tuic/common"
 
 	"github.com/metacubex/quic-go"
 	"github.com/puzpuzpuz/xsync/v2"

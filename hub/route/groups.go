@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter"
-	"github.com/Dreamacro/clash/adapter/outboundgroup"
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/qauzy/aiat/adapter"
+	"github.com/qauzy/aiat/adapter/outboundgroup"
+	"github.com/qauzy/aiat/common/utils"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/tunnel"
 )
 
 func GroupRouter() http.Handler {

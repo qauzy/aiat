@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 )
 
 // Init prepare necessary files

@@ -1,7 +1,7 @@
 package common
 
 import (
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/qauzy/aiat/constant"
 	"net/netip"
 )
 

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/log"
 )
 
 // ConvertsV2Ray convert V2Ray subscribe proxies data to clash proxies config

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net"
 
-	N "github.com/Dreamacro/clash/common/net"
+	N "github.com/qauzy/aiat/common/net"
 )
 
 type origin struct{}

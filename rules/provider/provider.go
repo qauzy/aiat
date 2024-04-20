@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/component/resource"
-	C "github.com/Dreamacro/clash/constant"
-	P "github.com/Dreamacro/clash/constant/provider"
+	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/aiat/component/resource"
+	C "github.com/qauzy/aiat/constant"
+	P "github.com/qauzy/aiat/constant/provider"
 )
 
 var (

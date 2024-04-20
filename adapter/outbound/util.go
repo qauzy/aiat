@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/qauzy/aiat/component/resolver"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/transport/socks5"
 )
 
 var (

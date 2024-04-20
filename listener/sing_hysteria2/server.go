@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	"github.com/Dreamacro/clash/adapter/outbound"
-	CN "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/sockopt"
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/listener/sing"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/adapter/inbound"
+	"github.com/qauzy/aiat/adapter/outbound"
+	CN "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/sockopt"
+	C "github.com/qauzy/aiat/constant"
+	LC "github.com/qauzy/aiat/listener/config"
+	"github.com/qauzy/aiat/listener/sing"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/metacubex/sing-quic/hysteria2"
 

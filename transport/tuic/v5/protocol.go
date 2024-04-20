@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/qauzy/aiat/common/utils"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/transport/socks5"
 
 	"github.com/metacubex/quic-go"
 )

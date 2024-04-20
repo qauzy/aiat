@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
+	"github.com/qauzy/aiat/common/pool"
 
 	"github.com/zhangyunhao116/fastrand"
 )

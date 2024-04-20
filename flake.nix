@@ -38,8 +38,8 @@
             ldflags = [
               "-s"
               "-w"
-              "-X github.com/Dreamacro/clash/constant.Version=dev-${version}"
-              "-X github.com/Dreamacro/clash/constant.BuildTime=${version}"
+              "-X github.com/qauzy/aiat/constant.Version=dev-${version}"
+              "-X github.com/qauzy/aiat/constant.BuildTime=${version}"
             ];
             
             tags = [

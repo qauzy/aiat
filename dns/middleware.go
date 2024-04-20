@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/common/cache"
-	"github.com/Dreamacro/clash/common/nnip"
-	"github.com/Dreamacro/clash/component/fakeip"
-	R "github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/context"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/common/cache"
+	"github.com/qauzy/aiat/common/nnip"
+	"github.com/qauzy/aiat/component/fakeip"
+	R "github.com/qauzy/aiat/component/resolver"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/context"
+	"github.com/qauzy/aiat/log"
 
 	D "github.com/miekg/dns"
 )

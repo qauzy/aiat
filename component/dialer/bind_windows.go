@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/Dreamacro/clash/component/iface"
+	"github.com/qauzy/aiat/component/iface"
 )
 
 const (

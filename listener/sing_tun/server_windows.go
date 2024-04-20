@@ -3,7 +3,7 @@ package sing_tun
 import (
 	"time"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/log"
 
 	tun "github.com/metacubex/sing-tun"
 )

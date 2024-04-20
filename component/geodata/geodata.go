@@ -3,8 +3,8 @@ package geodata
 import (
 	"fmt"
 
-	"github.com/Dreamacro/clash/component/geodata/router"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/component/geodata/router"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type loader struct {

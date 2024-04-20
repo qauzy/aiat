@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/Dreamacro/clash/component/geodata"
-	_ "github.com/Dreamacro/clash/component/geodata/standard"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/component/geodata"
+	_ "github.com/qauzy/aiat/component/geodata/standard"
+	C "github.com/qauzy/aiat/constant"
 
 	"github.com/oschwald/maxminddb-golang"
 )

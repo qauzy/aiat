@@ -20,9 +20,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/ntp"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/ntp"
 
 	utls "github.com/sagernet/utls"
 	"github.com/zhangyunhao116/fastrand"

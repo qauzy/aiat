@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/Dreamacro/clash/component/ca"
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/component/ca"
+	tlsC "github.com/qauzy/aiat/component/tls"
+	"github.com/qauzy/aiat/log"
 
 	"github.com/sagernet/sing-shadowtls"
 	sing_common "github.com/sagernet/sing/common"

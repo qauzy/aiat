@@ -1,10 +1,10 @@
 package hub
 
 import (
-	"github.com/Dreamacro/clash/config"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/hub/route"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/config"
+	"github.com/qauzy/aiat/hub/executor"
+	"github.com/qauzy/aiat/hub/route"
+	"github.com/qauzy/aiat/log"
 )
 
 type Option func(*config.Config)

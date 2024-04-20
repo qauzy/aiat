@@ -117,7 +117,7 @@ jobs:
       - name: Set ENV
         run: |
           echo "TAGS=with_gvisor,with_lwip" >> $GITHUB_ENV
-          echo "LDFLAGS=-X 'github.com/Dreamacro/clash/constant.Version=${VERSION}' -X 'github.com/Dreamacro/clash/constant.BuildTime=${BUILDTIME}' -w -s -buildid=" >> $GITHUB_ENV
+          echo "LDFLAGS=-X 'github.com/qauzy/aiat/constant.Version=${VERSION}' -X 'github.com/qauzy/aiat/constant.BuildTime=${BUILDTIME}' -w -s -buildid=" >> $GITHUB_ENV
         shell: bash
 
       - name: Setup Go

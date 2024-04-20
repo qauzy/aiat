@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/listener/sing_tun"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/qauzy/aiat/constant"
+	LC "github.com/qauzy/aiat/listener/config"
+	"github.com/qauzy/aiat/listener/sing_tun"
+	"github.com/qauzy/aiat/log"
 )
 
 type TunOption struct {

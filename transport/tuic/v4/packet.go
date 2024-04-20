@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/transport/tuic/common"
+	"github.com/qauzy/aiat/common/atomic"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/aiat/transport/tuic/common"
 
 	"github.com/metacubex/quic-go"
 )

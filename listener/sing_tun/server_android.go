@@ -1,8 +1,8 @@
 package sing_tun
 
 import (
-	"github.com/Dreamacro/clash/log"
 	tun "github.com/metacubex/sing-tun"
+	"github.com/qauzy/aiat/log"
 	"github.com/sagernet/netlink"
 	"golang.org/x/sys/unix"
 	"runtime"

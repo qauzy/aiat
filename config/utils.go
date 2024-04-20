@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/outboundgroup"
-	"github.com/Dreamacro/clash/common/structure"
-	clashHttp "github.com/Dreamacro/clash/component/http"
+	"github.com/qauzy/aiat/adapter/outboundgroup"
+	"github.com/qauzy/aiat/common/structure"
+	clashHttp "github.com/qauzy/aiat/component/http"
 )
 
 func downloadForBytes(url string) ([]byte, error) {

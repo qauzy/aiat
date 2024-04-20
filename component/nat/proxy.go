@@ -3,8 +3,8 @@ package nat
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/common/atomic"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type writeBackProxy struct {

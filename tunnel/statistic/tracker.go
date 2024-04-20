@@ -6,11 +6,11 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/common/buf"
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/common/buf"
+	N "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/utils"
+	C "github.com/qauzy/aiat/constant"
 
 	"github.com/gofrs/uuid/v5"
 )

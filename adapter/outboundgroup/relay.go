@@ -3,11 +3,11 @@ package outboundgroup
 import (
 	"context"
 	"encoding/json"
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
+	"github.com/qauzy/aiat/adapter/outbound"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/constant/provider"
 )
 
 type Relay struct {

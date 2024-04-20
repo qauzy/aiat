@@ -5,9 +5,9 @@ import (
 	"net/netip"
 	"strconv"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/context"
-	"github.com/Dreamacro/clash/transport/socks5"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/context"
+	"github.com/qauzy/aiat/transport/socks5"
 )
 
 // NewSocket receive TCP inbound and return ConnContext

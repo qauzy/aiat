@@ -8,11 +8,11 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/Dreamacro/clash/common/atomic"
-	"github.com/Dreamacro/clash/component/ca"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/common/atomic"
+	"github.com/qauzy/aiat/component/ca"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/resolver"
+	C "github.com/qauzy/aiat/constant"
 
 	D "github.com/miekg/dns"
 	"github.com/zhangyunhao116/fastrand"

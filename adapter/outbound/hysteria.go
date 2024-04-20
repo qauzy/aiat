@@ -14,17 +14,17 @@ import (
 	"github.com/metacubex/quic-go/congestion"
 	M "github.com/sagernet/sing/common/metadata"
 
-	"github.com/Dreamacro/clash/component/ca"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	hyCongestion "github.com/Dreamacro/clash/transport/hysteria/congestion"
-	"github.com/Dreamacro/clash/transport/hysteria/core"
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
-	"github.com/Dreamacro/clash/transport/hysteria/pmtud_fix"
-	"github.com/Dreamacro/clash/transport/hysteria/transport"
-	"github.com/Dreamacro/clash/transport/hysteria/utils"
+	"github.com/qauzy/aiat/component/ca"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
+	hyCongestion "github.com/qauzy/aiat/transport/hysteria/congestion"
+	"github.com/qauzy/aiat/transport/hysteria/core"
+	"github.com/qauzy/aiat/transport/hysteria/obfs"
+	"github.com/qauzy/aiat/transport/hysteria/pmtud_fix"
+	"github.com/qauzy/aiat/transport/hysteria/transport"
+	"github.com/qauzy/aiat/transport/hysteria/utils"
 )
 
 const (

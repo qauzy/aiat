@@ -11,8 +11,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/Dreamacro/clash/common/pool"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/common/pool"
+	C "github.com/qauzy/aiat/constant"
 )
 
 const (

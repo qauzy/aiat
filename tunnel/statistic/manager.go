@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Dreamacro/clash/common/atomic"
+	"github.com/qauzy/aiat/common/atomic"
 
 	"github.com/puzpuzpuz/xsync/v2"
 	"github.com/shirou/gopsutil/v3/process"

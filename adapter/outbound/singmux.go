@@ -5,11 +5,11 @@ import (
 	"errors"
 	"runtime"
 
-	CN "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/proxydialer"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
+	CN "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/aiat/component/proxydialer"
+	"github.com/qauzy/aiat/component/resolver"
+	C "github.com/qauzy/aiat/constant"
 
 	mux "github.com/sagernet/sing-mux"
 	E "github.com/sagernet/sing/common/exceptions"

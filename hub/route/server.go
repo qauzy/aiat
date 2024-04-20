@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	CN "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	"github.com/qauzy/aiat/adapter/inbound"
+	CN "github.com/qauzy/aiat/common/net"
+	"github.com/qauzy/aiat/common/utils"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/aiat/tunnel/statistic"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

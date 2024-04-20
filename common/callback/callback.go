@@ -1,9 +1,9 @@
 package callback
 
 import (
-	"github.com/Dreamacro/clash/common/buf"
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/qauzy/aiat/common/buf"
+	N "github.com/qauzy/aiat/common/net"
+	C "github.com/qauzy/aiat/constant"
 )
 
 type firstWriteCallBackConn struct {

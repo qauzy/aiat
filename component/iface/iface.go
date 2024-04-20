@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/common/singledo"
+	"github.com/qauzy/aiat/common/singledo"
 )
 
 type Interface struct {

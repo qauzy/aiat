@@ -1,7 +1,7 @@
 package constant
 
 import (
-	"github.com/Dreamacro/clash/component/geodata/router"
+	"github.com/qauzy/aiat/component/geodata/router"
 )
 
 type RuleGeoSite interface {

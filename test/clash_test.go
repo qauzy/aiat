@@ -16,13 +16,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/transport/socks5"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/docker/go-connections/nat"
+	"github.com/qauzy/aiat/adapter/outbound"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/hub/executor"
+	"github.com/qauzy/aiat/transport/socks5"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

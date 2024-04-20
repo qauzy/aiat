@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Dreamacro/clash/common/utils"
 	"github.com/openacid/low/bitmap"
+	"github.com/qauzy/aiat/common/utils"
 )
 
 const (

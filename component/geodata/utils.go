@@ -6,9 +6,9 @@ import (
 	"golang.org/x/sync/singleflight"
 	"strings"
 
-	"github.com/Dreamacro/clash/component/geodata/router"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/qauzy/aiat/component/geodata/router"
+	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/aiat/log"
 )
 
 var geoLoaderName = "memconservative"

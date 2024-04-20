@@ -6,8 +6,8 @@ import (
 	"strings"
 	_ "unsafe"
 
-	"github.com/Dreamacro/clash/common/utils"
-	"github.com/Dreamacro/clash/component/trie"
+	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/aiat/component/trie"
 	"github.com/zhangyunhao116/fastrand"
 )
 
