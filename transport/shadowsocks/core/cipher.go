@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/transport/shadowsocks/shadowaead"
-	"github.com/qauzy/aiat/transport/shadowsocks/shadowstream"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/transport/shadowsocks/shadowaead"
+	"github.com/qauzy/netat/transport/shadowsocks/shadowstream"
 )
 
 type Cipher interface {

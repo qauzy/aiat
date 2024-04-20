@@ -1,4 +1,4 @@
-module github.com/qauzy/aiat
+module github.com/qauzy/netat
 
 go 1.20
 

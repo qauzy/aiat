@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	N "github.com/qauzy/aiat/common/net"
-	tlsC "github.com/qauzy/aiat/component/tls"
+	N "github.com/qauzy/netat/common/net"
+	tlsC "github.com/qauzy/netat/component/tls"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/sagernet/sing/common"

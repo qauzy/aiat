@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qauzy/aiat/component/ca"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/tuic"
+	"github.com/qauzy/netat/component/ca"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/tuic"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/metacubex/quic-go"

@@ -8,9 +8,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/transport/shadowsocks/shadowaead"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/transport/shadowsocks/shadowaead"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 const (

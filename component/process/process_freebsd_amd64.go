@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/qauzy/aiat/common/nnip"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/nnip"
+	"github.com/qauzy/netat/log"
 )
 
 // store process name for when dealing with multiple PROCESS-NAME rules

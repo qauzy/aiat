@@ -2,7 +2,7 @@ package sing_tun
 
 import (
 	tun "github.com/metacubex/sing-tun"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 	"github.com/sagernet/netlink"
 	"golang.org/x/sys/unix"
 	"runtime"

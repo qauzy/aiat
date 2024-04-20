@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/transport/ssr/tools"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/transport/ssr/tools"
 
 	"github.com/zhangyunhao116/fastrand"
 )

@@ -1,10 +1,10 @@
 package route
 
 import (
-	"github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/constant"
 	"net/http"
 
-	"github.com/qauzy/aiat/tunnel"
+	"github.com/qauzy/netat/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

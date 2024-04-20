@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 
 	"github.com/mroth/weightedrand/v2"
 	utls "github.com/sagernet/utls"

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 )
 
 var (

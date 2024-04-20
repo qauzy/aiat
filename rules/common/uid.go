@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 )
 
 type Uid struct {

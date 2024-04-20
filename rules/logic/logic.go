@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/qauzy/aiat/common/collections"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/rules/common"
+	"github.com/qauzy/netat/common/collections"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/rules/common"
 )
 
 type Logic struct {

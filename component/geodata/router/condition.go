@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/qauzy/aiat/component/geodata/strmatcher"
+	"github.com/qauzy/netat/component/geodata/strmatcher"
 )
 
 var matcherTypeMap = map[Domain_Type]strmatcher.Type{

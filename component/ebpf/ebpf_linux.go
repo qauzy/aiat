@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/qauzy/aiat/common/cmd"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/ebpf/redir"
-	"github.com/qauzy/aiat/component/ebpf/tc"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/cmd"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/ebpf/redir"
+	"github.com/qauzy/netat/component/ebpf/tc"
+	C "github.com/qauzy/netat/constant"
 	"github.com/sagernet/netlink"
 )
 

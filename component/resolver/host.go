@@ -6,8 +6,8 @@ import (
 	"strings"
 	_ "unsafe"
 
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/trie"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/trie"
 	"github.com/zhangyunhao116/fastrand"
 )
 

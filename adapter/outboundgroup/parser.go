@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/qauzy/aiat/adapter/outbound"
-	"github.com/qauzy/aiat/adapter/provider"
-	"github.com/qauzy/aiat/common/structure"
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	types "github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/netat/adapter/outbound"
+	"github.com/qauzy/netat/adapter/provider"
+	"github.com/qauzy/netat/common/structure"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	types "github.com/qauzy/netat/constant/provider"
 )
 
 var (

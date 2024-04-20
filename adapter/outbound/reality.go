@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	tlsC "github.com/qauzy/aiat/component/tls"
+	tlsC "github.com/qauzy/netat/component/tls"
 
 	"golang.org/x/crypto/curve25519"
 )

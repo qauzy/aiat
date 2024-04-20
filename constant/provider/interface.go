@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/constant"
 )
 
 // Vehicle Type

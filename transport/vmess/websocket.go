@@ -17,9 +17,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/buf"
-	N "github.com/qauzy/aiat/common/net"
-	tlsC "github.com/qauzy/aiat/component/tls"
+	"github.com/qauzy/netat/common/buf"
+	N "github.com/qauzy/netat/common/net"
+	tlsC "github.com/qauzy/netat/component/tls"
 
 	"github.com/gorilla/websocket"
 	"github.com/zhangyunhao116/fastrand"

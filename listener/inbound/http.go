@@ -1,9 +1,9 @@
 package inbound
 
 import (
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/listener/http"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/listener/http"
+	"github.com/qauzy/netat/log"
 )
 
 type HTTPOption struct {

@@ -6,9 +6,9 @@ import (
 	"net/netip"
 	"time"
 
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 )
 
 func handleUDPToRemote(packet C.UDPPacket, pc C.PacketConn, metadata *C.Metadata) error {

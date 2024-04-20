@@ -9,9 +9,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/qauzy/aiat/common/buf"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/buf"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/log"
 
 	"github.com/gofrs/uuid/v5"
 	utls "github.com/sagernet/utls"

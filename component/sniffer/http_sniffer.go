@@ -7,9 +7,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/sniffer"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/sniffer"
 )
 
 var (

@@ -3,7 +3,7 @@ package sing_tun
 import (
 	"time"
 
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 
 	tun "github.com/metacubex/sing-tun"
 )

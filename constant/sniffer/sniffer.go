@@ -1,6 +1,6 @@
 package sniffer
 
-import "github.com/qauzy/aiat/constant"
+import "github.com/qauzy/netat/constant"
 
 type Sniffer interface {
 	SupportNetwork() constant.NetWork

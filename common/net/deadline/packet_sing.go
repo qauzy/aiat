@@ -4,7 +4,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/qauzy/aiat/common/net/packet"
+	"github.com/qauzy/netat/common/net/packet"
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"
 	M "github.com/sagernet/sing/common/metadata"

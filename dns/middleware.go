@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/common/cache"
-	"github.com/qauzy/aiat/common/nnip"
-	"github.com/qauzy/aiat/component/fakeip"
-	R "github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/context"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/cache"
+	"github.com/qauzy/netat/common/nnip"
+	"github.com/qauzy/netat/component/fakeip"
+	R "github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/context"
+	"github.com/qauzy/netat/log"
 
 	D "github.com/miekg/dns"
 )

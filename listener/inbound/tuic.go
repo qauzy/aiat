@@ -1,10 +1,10 @@
 package inbound
 
 import (
-	C "github.com/qauzy/aiat/constant"
-	LC "github.com/qauzy/aiat/listener/config"
-	"github.com/qauzy/aiat/listener/tuic"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	LC "github.com/qauzy/netat/listener/config"
+	"github.com/qauzy/netat/listener/tuic"
+	"github.com/qauzy/netat/log"
 )
 
 type TuicOption struct {

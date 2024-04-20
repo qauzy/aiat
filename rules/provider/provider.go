@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/component/resource"
-	C "github.com/qauzy/aiat/constant"
-	P "github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/component/resource"
+	C "github.com/qauzy/netat/constant"
+	P "github.com/qauzy/netat/constant/provider"
 )
 
 var (

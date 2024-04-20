@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	clashHttp "github.com/qauzy/aiat/component/http"
-	"github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	clashHttp "github.com/qauzy/netat/component/http"
+	"github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
 	"github.com/klauspost/cpuid/v2"
 )

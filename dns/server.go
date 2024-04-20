@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net"
 
-	"github.com/qauzy/aiat/common/sockopt"
-	"github.com/qauzy/aiat/context"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/sockopt"
+	"github.com/qauzy/netat/context"
+	"github.com/qauzy/netat/log"
 
 	D "github.com/miekg/dns"
 )

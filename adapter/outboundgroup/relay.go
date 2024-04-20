@@ -3,11 +3,11 @@ package outboundgroup
 import (
 	"context"
 	"encoding/json"
-	"github.com/qauzy/aiat/adapter/outbound"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/netat/adapter/outbound"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/provider"
 )
 
 type Relay struct {

@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/component/dhcp"
-	"github.com/qauzy/aiat/component/iface"
-	"github.com/qauzy/aiat/component/resolver"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/component/dhcp"
+	"github.com/qauzy/netat/component/iface"
+	"github.com/qauzy/netat/component/resolver"
 
 	D "github.com/miekg/dns"
 )

@@ -6,10 +6,10 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	"github.com/qauzy/aiat/common/pool"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/adapter/inbound"
+	"github.com/qauzy/netat/common/pool"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 )
 
 type packet struct {

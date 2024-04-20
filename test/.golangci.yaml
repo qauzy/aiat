@@ -10,7 +10,7 @@ linters-settings:
   gci:
     sections:
       - standard
-      - prefix(github.com/qauzy/aiat)
+      - prefix(github.com/qauzy/netat)
       - default
   staticcheck:
     go: '1.19'

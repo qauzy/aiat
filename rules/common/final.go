@@ -1,7 +1,7 @@
 package common
 
 import (
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Match struct {

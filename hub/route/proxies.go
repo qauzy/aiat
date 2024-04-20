@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qauzy/aiat/adapter"
-	"github.com/qauzy/aiat/adapter/outboundgroup"
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/profile/cachefile"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/tunnel"
+	"github.com/qauzy/netat/adapter"
+	"github.com/qauzy/netat/adapter/outboundgroup"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/profile/cachefile"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

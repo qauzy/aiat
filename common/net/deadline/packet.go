@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/common/net/packet"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/common/net/packet"
 )
 
 type readResult struct {

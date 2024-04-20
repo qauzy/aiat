@@ -3,9 +3,9 @@ package dns
 import (
 	"net/netip"
 
-	"github.com/qauzy/aiat/common/cache"
-	"github.com/qauzy/aiat/component/fakeip"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/cache"
+	"github.com/qauzy/netat/component/fakeip"
+	C "github.com/qauzy/netat/constant"
 )
 
 type ResolverEnhancer struct {

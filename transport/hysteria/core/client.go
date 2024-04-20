@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/transport/hysteria/obfs"
-	"github.com/qauzy/aiat/transport/hysteria/pmtud_fix"
-	"github.com/qauzy/aiat/transport/hysteria/transport"
-	"github.com/qauzy/aiat/transport/hysteria/utils"
+	"github.com/qauzy/netat/transport/hysteria/obfs"
+	"github.com/qauzy/netat/transport/hysteria/pmtud_fix"
+	"github.com/qauzy/netat/transport/hysteria/transport"
+	"github.com/qauzy/netat/transport/hysteria/utils"
 
 	"github.com/lunixbochs/struc"
 	"github.com/metacubex/quic-go"

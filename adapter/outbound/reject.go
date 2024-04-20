@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/qauzy/aiat/common/buf"
-	"github.com/qauzy/aiat/component/dialer"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/buf"
+	"github.com/qauzy/netat/component/dialer"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Reject struct {

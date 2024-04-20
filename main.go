@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/qauzy/aiat/constant/features"
+	"github.com/qauzy/netat/constant/features"
 	"os"
 	"os/signal"
 	"path/filepath"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/qauzy/aiat/config"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/hub"
-	"github.com/qauzy/aiat/hub/executor"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/config"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/hub"
+	"github.com/qauzy/netat/hub/executor"
+	"github.com/qauzy/netat/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

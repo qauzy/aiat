@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"strings"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/transport/shadowsocks/core"
-	"github.com/qauzy/aiat/transport/ssr/tools"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/transport/shadowsocks/core"
+	"github.com/qauzy/netat/transport/ssr/tools"
 )
 
 func init() {

@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	"github.com/qauzy/aiat/adapter/outbound"
-	CN "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/sockopt"
-	C "github.com/qauzy/aiat/constant"
-	LC "github.com/qauzy/aiat/listener/config"
-	"github.com/qauzy/aiat/listener/sing"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/adapter/inbound"
+	"github.com/qauzy/netat/adapter/outbound"
+	CN "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/sockopt"
+	C "github.com/qauzy/netat/constant"
+	LC "github.com/qauzy/netat/listener/config"
+	"github.com/qauzy/netat/listener/sing"
+	"github.com/qauzy/netat/log"
 
 	"github.com/metacubex/sing-quic/hysteria2"
 

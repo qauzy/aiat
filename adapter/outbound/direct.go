@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net/netip"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Direct struct {

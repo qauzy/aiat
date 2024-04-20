@@ -3,8 +3,8 @@ package nat
 import (
 	"net"
 
-	"github.com/qauzy/aiat/common/atomic"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/atomic"
+	C "github.com/qauzy/netat/constant"
 )
 
 type writeBackProxy struct {

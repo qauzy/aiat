@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/common/buf"
-	"github.com/qauzy/aiat/common/pool"
-	tlsC "github.com/qauzy/aiat/component/tls"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/common/buf"
+	"github.com/qauzy/netat/common/pool"
+	tlsC "github.com/qauzy/netat/component/tls"
 
 	"golang.org/x/net/http2"
 )

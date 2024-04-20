@@ -13,13 +13,13 @@ import (
 	"strings"
 	"sync"
 
-	CN "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/dns"
-	"github.com/qauzy/aiat/log"
+	CN "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/dns"
+	"github.com/qauzy/netat/log"
 
 	wireguard "github.com/metacubex/sing-wireguard"
 

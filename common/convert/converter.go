@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 )
 
 // ConvertsV2Ray convert V2Ray subscribe proxies data to clash proxies config

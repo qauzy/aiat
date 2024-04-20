@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"

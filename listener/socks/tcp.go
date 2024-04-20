@@ -4,12 +4,12 @@ import (
 	"io"
 	"net"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	authStore "github.com/qauzy/aiat/listener/auth"
-	"github.com/qauzy/aiat/transport/socks4"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/adapter/inbound"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	authStore "github.com/qauzy/netat/listener/auth"
+	"github.com/qauzy/netat/transport/socks4"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 type Listener struct {

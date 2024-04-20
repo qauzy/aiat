@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/adapter/inbound"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 func isUpgradeRequest(req *http.Request) bool {

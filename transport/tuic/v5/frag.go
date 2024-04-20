@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/qauzy/aiat/common/cache"
+	"github.com/qauzy/netat/common/cache"
 
 	"github.com/metacubex/quic-go"
 )

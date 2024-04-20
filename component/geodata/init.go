@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	clashHttp "github.com/qauzy/aiat/component/http"
-	"github.com/qauzy/aiat/component/mmdb"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	clashHttp "github.com/qauzy/netat/component/http"
+	"github.com/qauzy/netat/component/mmdb"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 )
 
 var initGeoSite bool

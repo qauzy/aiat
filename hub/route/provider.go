@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/provider"
-	"github.com/qauzy/aiat/tunnel"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/provider"
+	"github.com/qauzy/netat/tunnel"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

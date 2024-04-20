@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/qauzy/aiat/component/iface"
+	"github.com/qauzy/netat/component/iface"
 )
 
 const (

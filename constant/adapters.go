@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/dialer"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/dialer"
 )
 
 // Adapter Type

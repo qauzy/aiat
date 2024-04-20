@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 	"strings"
 )
 

@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/cache"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/trie"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/sniffer"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/cache"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/trie"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/sniffer"
+	"github.com/qauzy/netat/log"
 )
 
 var (

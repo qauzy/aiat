@@ -3,7 +3,7 @@ package common
 import (
 	"strings"
 
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 )
 
 type DomainSuffix struct {

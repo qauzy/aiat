@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/qauzy/aiat/common/buf"
+	"github.com/qauzy/netat/common/buf"
 )
 
 type refConn struct {

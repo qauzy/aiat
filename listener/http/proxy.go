@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	"github.com/qauzy/aiat/common/cache"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	authStore "github.com/qauzy/aiat/listener/auth"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/adapter/inbound"
+	"github.com/qauzy/netat/common/cache"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	authStore "github.com/qauzy/netat/listener/auth"
+	"github.com/qauzy/netat/log"
 )
 
 func HandleConn(c net.Conn, in chan<- C.ConnContext, cache *cache.LruCache[string, bool], additions ...inbound.Addition) {

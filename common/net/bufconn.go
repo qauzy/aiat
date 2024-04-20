@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"net"
 
-	"github.com/qauzy/aiat/common/buf"
+	"github.com/qauzy/netat/common/buf"
 )
 
 var _ ExtendedConn = (*BufferedConn)(nil)

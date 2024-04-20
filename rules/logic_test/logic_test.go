@@ -2,10 +2,10 @@ package logic_test
 
 import (
 	// https://github.com/golang/go/wiki/CodeReviewComments#import-dot
-	. "github.com/qauzy/aiat/rules/logic"
+	. "github.com/qauzy/netat/rules/logic"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/rules"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/rules"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

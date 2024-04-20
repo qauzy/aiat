@@ -5,7 +5,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/netat/common/utils"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/zhangyunhao116/fastrand"

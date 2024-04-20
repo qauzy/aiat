@@ -1,8 +1,8 @@
 package net
 
 import (
-	"github.com/qauzy/aiat/common/net/deadline"
-	"github.com/qauzy/aiat/common/net/packet"
+	"github.com/qauzy/netat/common/net/deadline"
+	"github.com/qauzy/netat/common/net/packet"
 )
 
 type EnhancePacketConn = packet.EnhancePacketConn

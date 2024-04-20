@@ -5,7 +5,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/netat/component/dialer"
 )
 
 func ListenDHCPClient(ctx context.Context, ifaceName string) (net.PacketConn, error) {

@@ -11,8 +11,8 @@ import (
 	"github.com/metacubex/quic-go"
 	"lukechampine.com/blake3"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 type BufferedReader interface {

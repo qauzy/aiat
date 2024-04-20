@@ -3,9 +3,9 @@ package http
 import (
 	"net"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	"github.com/qauzy/aiat/common/cache"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/adapter/inbound"
+	"github.com/qauzy/netat/common/cache"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Listener struct {

@@ -3,7 +3,7 @@ package fakeip
 import (
 	"net/netip"
 
-	"github.com/qauzy/aiat/component/profile/cachefile"
+	"github.com/qauzy/netat/component/profile/cachefile"
 )
 
 type cachefileStore struct {

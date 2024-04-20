@@ -13,11 +13,11 @@ import (
 	"net/http"
 	"strconv"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/ca"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	C "github.com/qauzy/aiat/constant"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/ca"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Http struct {

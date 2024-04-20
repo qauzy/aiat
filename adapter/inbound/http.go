@@ -3,9 +3,9 @@ package inbound
 import (
 	"net"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/context"
-	"github.com/qauzy/aiat/transport/socks5"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/context"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 // NewHTTP receive normal http request and return HTTPContext

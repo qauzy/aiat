@@ -1,10 +1,10 @@
 package tuic
 
 import (
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/tuic/common"
-	v4 "github.com/qauzy/aiat/transport/tuic/v4"
-	v5 "github.com/qauzy/aiat/transport/tuic/v5"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/tuic/common"
+	v4 "github.com/qauzy/netat/transport/tuic/v4"
+	v5 "github.com/qauzy/netat/transport/tuic/v5"
 )
 
 type ClientOptionV4 = v4.ClientOption

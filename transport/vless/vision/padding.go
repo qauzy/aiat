@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/qauzy/aiat/common/buf"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/buf"
+	"github.com/qauzy/netat/log"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/zhangyunhao116/fastrand"

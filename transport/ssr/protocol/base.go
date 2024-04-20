@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/transport/shadowsocks/core"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/transport/shadowsocks/core"
 
 	"github.com/zhangyunhao116/fastrand"
 )

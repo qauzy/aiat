@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	CN "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/tunnel/statistic"
+	"github.com/qauzy/netat/adapter/inbound"
+	CN "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/tunnel/statistic"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

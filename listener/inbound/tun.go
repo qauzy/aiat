@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	C "github.com/qauzy/aiat/constant"
-	LC "github.com/qauzy/aiat/listener/config"
-	"github.com/qauzy/aiat/listener/sing_tun"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	LC "github.com/qauzy/netat/listener/config"
+	"github.com/qauzy/netat/listener/sing_tun"
+	"github.com/qauzy/netat/log"
 )
 
 type TunOption struct {

@@ -3,7 +3,7 @@ package trie
 import (
 	"net"
 
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 )
 
 type IPV6 bool

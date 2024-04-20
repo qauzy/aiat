@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	LC "github.com/qauzy/aiat/listener/config"
-	"github.com/qauzy/aiat/listener/sing"
-	"github.com/qauzy/aiat/ntp"
+	"github.com/qauzy/netat/adapter/inbound"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	LC "github.com/qauzy/netat/listener/config"
+	"github.com/qauzy/netat/listener/sing"
+	"github.com/qauzy/netat/ntp"
 
 	vmess "github.com/metacubex/sing-vmess"
 	"github.com/sagernet/sing/common"

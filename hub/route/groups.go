@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qauzy/aiat/adapter"
-	"github.com/qauzy/aiat/adapter/outboundgroup"
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/tunnel"
+	"github.com/qauzy/netat/adapter"
+	"github.com/qauzy/netat/adapter/outboundgroup"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/tunnel"
 )
 
 func GroupRouter() http.Handler {

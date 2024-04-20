@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/qauzy/aiat/common/nnip"
-	"github.com/qauzy/aiat/component/profile/cachefile"
-	"github.com/qauzy/aiat/component/trie"
+	"github.com/qauzy/netat/common/nnip"
+	"github.com/qauzy/netat/component/profile/cachefile"
+	"github.com/qauzy/netat/component/trie"
 )
 
 const (

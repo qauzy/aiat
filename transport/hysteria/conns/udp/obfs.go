@@ -1,7 +1,7 @@
 package udp
 
 import (
-	"github.com/qauzy/aiat/transport/hysteria/obfs"
+	"github.com/qauzy/netat/transport/hysteria/obfs"
 	"net"
 	"sync"
 	"time"

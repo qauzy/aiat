@@ -5,11 +5,11 @@ import (
 	"errors"
 	"runtime"
 
-	CN "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
+	CN "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
 
 	mux "github.com/sagernet/sing-mux"
 	E "github.com/sagernet/sing/common/exceptions"

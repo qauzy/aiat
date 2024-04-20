@@ -4,12 +4,12 @@ import (
 	"net"
 	"strings"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	LC "github.com/qauzy/aiat/listener/config"
-	"github.com/qauzy/aiat/transport/shadowsocks/core"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/adapter/inbound"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	LC "github.com/qauzy/netat/listener/config"
+	"github.com/qauzy/netat/transport/shadowsocks/core"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 type Listener struct {

@@ -14,17 +14,17 @@ import (
 	"github.com/metacubex/quic-go/congestion"
 	M "github.com/sagernet/sing/common/metadata"
 
-	"github.com/qauzy/aiat/component/ca"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
-	hyCongestion "github.com/qauzy/aiat/transport/hysteria/congestion"
-	"github.com/qauzy/aiat/transport/hysteria/core"
-	"github.com/qauzy/aiat/transport/hysteria/obfs"
-	"github.com/qauzy/aiat/transport/hysteria/pmtud_fix"
-	"github.com/qauzy/aiat/transport/hysteria/transport"
-	"github.com/qauzy/aiat/transport/hysteria/utils"
+	"github.com/qauzy/netat/component/ca"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
+	hyCongestion "github.com/qauzy/netat/transport/hysteria/congestion"
+	"github.com/qauzy/netat/transport/hysteria/core"
+	"github.com/qauzy/netat/transport/hysteria/obfs"
+	"github.com/qauzy/netat/transport/hysteria/pmtud_fix"
+	"github.com/qauzy/netat/transport/hysteria/transport"
+	"github.com/qauzy/netat/transport/hysteria/utils"
 )
 
 const (

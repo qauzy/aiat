@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/adapter/outbound"
-	"github.com/qauzy/aiat/common/cache"
-	"github.com/qauzy/aiat/common/callback"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/dialer"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/netat/adapter/outbound"
+	"github.com/qauzy/netat/common/cache"
+	"github.com/qauzy/netat/common/callback"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/dialer"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/provider"
 
 	"golang.org/x/net/publicsuffix"
 )

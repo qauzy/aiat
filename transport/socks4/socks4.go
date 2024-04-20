@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/qauzy/aiat/component/auth"
+	"github.com/qauzy/netat/component/auth"
 )
 
 const Version = 0x04

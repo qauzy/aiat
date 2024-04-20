@@ -3,11 +3,11 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
-	"github.com/qauzy/aiat/listener/mixed"
-	"github.com/qauzy/aiat/listener/socks"
+	"github.com/qauzy/netat/listener/mixed"
+	"github.com/qauzy/netat/listener/socks"
 )
 
 type MixedOption struct {

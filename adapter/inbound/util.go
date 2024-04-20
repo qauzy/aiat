@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qauzy/aiat/common/nnip"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/common/nnip"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 func parseSocksAddr(target socks5.Addr) *C.Metadata {

@@ -3,9 +3,9 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/listener/tproxy"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/listener/tproxy"
+	"github.com/qauzy/netat/log"
 )
 
 type TProxyOption struct {

@@ -3,7 +3,7 @@ package fakeip
 import (
 	"net/netip"
 
-	"github.com/qauzy/aiat/common/cache"
+	"github.com/qauzy/netat/common/cache"
 )
 
 type memoryStore struct {

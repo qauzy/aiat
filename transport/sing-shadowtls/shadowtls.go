@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/qauzy/aiat/component/ca"
-	tlsC "github.com/qauzy/aiat/component/tls"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/component/ca"
+	tlsC "github.com/qauzy/netat/component/tls"
+	"github.com/qauzy/netat/log"
 
 	"github.com/sagernet/sing-shadowtls"
 	sing_common "github.com/sagernet/sing/common"

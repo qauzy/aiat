@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/qauzy/aiat/component/geodata"
-	"github.com/qauzy/aiat/component/geodata/router"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/component/geodata"
+	"github.com/qauzy/netat/component/geodata/router"
+	C "github.com/qauzy/netat/constant"
 
 	"google.golang.org/protobuf/proto"
 )

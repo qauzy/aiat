@@ -6,8 +6,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/qauzy/aiat/component/ca"
-	"github.com/qauzy/aiat/transport/vmess"
+	"github.com/qauzy/netat/component/ca"
+	"github.com/qauzy/netat/transport/vmess"
 )
 
 // Option is options of websocket obfs

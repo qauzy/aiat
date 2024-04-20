@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/qauzy/aiat/common/structure"
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/resource"
-	C "github.com/qauzy/aiat/constant"
-	types "github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/netat/common/structure"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/resource"
+	C "github.com/qauzy/netat/constant"
+	types "github.com/qauzy/netat/constant/provider"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/qauzy/aiat/component/auth"
+	"github.com/qauzy/netat/component/auth"
 )
 
 // Error represents a SOCKS error

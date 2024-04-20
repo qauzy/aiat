@@ -3,9 +3,9 @@ package sniffer
 import (
 	"errors"
 
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/sniffer"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/sniffer"
 )
 
 type SnifferConfig struct {

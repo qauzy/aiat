@@ -3,7 +3,7 @@ package constant
 import (
 	"net"
 
-	N "github.com/qauzy/aiat/common/net"
+	N "github.com/qauzy/netat/common/net"
 
 	"github.com/gofrs/uuid/v5"
 )

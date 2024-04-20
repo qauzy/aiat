@@ -6,13 +6,13 @@ import (
 	"net"
 	"strconv"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/structure"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	C "github.com/qauzy/aiat/constant"
-	obfs "github.com/qauzy/aiat/transport/simple-obfs"
-	"github.com/qauzy/aiat/transport/snell"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/structure"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	C "github.com/qauzy/netat/constant"
+	obfs "github.com/qauzy/netat/transport/simple-obfs"
+	"github.com/qauzy/netat/transport/snell"
 )
 
 type Snell struct {

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/transport/hysteria/obfs"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/transport/hysteria/obfs"
 
 	"github.com/zhangyunhao116/fastrand"
 )

@@ -1,11 +1,11 @@
 package context
 
 import (
-	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/netat/common/utils"
 	"net"
 
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
 
 	"github.com/gofrs/uuid/v5"
 )

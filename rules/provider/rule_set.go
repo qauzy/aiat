@@ -2,9 +2,9 @@ package provider
 
 import (
 	"fmt"
-	C "github.com/qauzy/aiat/constant"
-	P "github.com/qauzy/aiat/constant/provider"
-	"github.com/qauzy/aiat/rules/common"
+	C "github.com/qauzy/netat/constant"
+	P "github.com/qauzy/netat/constant/provider"
+	"github.com/qauzy/netat/rules/common"
 )
 
 type RuleSet struct {

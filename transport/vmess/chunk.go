@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/netat/common/pool"
 )
 
 const (

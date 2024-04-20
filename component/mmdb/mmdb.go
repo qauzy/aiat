@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	clashHttp "github.com/qauzy/aiat/component/http"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	clashHttp "github.com/qauzy/netat/component/http"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
 	"github.com/oschwald/maxminddb-golang"
 )

@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/generics/list"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/generics/list"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
 	"github.com/metacubex/quic-go"
 )

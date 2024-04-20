@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/common/queue"
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/dialer"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/common/queue"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/dialer"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
 	"github.com/puzpuzpuz/xsync/v2"
 )

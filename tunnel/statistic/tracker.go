@@ -6,11 +6,11 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/common/buf"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/common/buf"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
 
 	"github.com/gofrs/uuid/v5"
 )

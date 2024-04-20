@@ -1,10 +1,10 @@
 package inbound
 
 import (
-	C "github.com/qauzy/aiat/constant"
-	LC "github.com/qauzy/aiat/listener/config"
-	"github.com/qauzy/aiat/listener/sing_shadowsocks"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	LC "github.com/qauzy/netat/listener/config"
+	"github.com/qauzy/netat/listener/sing_shadowsocks"
+	"github.com/qauzy/netat/log"
 )
 
 type ShadowSocksOption struct {

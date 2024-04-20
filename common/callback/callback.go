@@ -1,9 +1,9 @@
 package callback
 
 import (
-	"github.com/qauzy/aiat/common/buf"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/buf"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
 )
 
 type firstWriteCallBackConn struct {

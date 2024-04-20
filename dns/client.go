@@ -8,11 +8,11 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/component/ca"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/component/ca"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
 
 	D "github.com/miekg/dns"
 	"github.com/zhangyunhao116/fastrand"

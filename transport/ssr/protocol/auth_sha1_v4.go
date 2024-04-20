@@ -7,9 +7,9 @@ import (
 	"hash/crc32"
 	"net"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/transport/ssr/tools"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/transport/ssr/tools"
 
 	"github.com/zhangyunhao116/fastrand"
 )

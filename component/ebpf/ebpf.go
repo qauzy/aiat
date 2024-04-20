@@ -3,8 +3,8 @@ package ebpf
 import (
 	"net/netip"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 type TcEBpfProgram struct {

@@ -7,12 +7,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	"github.com/qauzy/aiat/common/atomic"
-	N "github.com/qauzy/aiat/common/net"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
-	"github.com/qauzy/aiat/transport/tuic/common"
+	"github.com/qauzy/netat/adapter/inbound"
+	"github.com/qauzy/netat/common/atomic"
+	N "github.com/qauzy/netat/common/net"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
+	"github.com/qauzy/netat/transport/tuic/common"
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/metacubex/quic-go"

@@ -1,7 +1,7 @@
 package strmatcher
 
 import (
-	"github.com/qauzy/aiat/common/generics/list"
+	"github.com/qauzy/netat/common/generics/list"
 )
 
 const validCharCount = 53

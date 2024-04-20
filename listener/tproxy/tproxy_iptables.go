@@ -6,9 +6,9 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/qauzy/aiat/common/cmd"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/cmd"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/log"
 )
 
 var (

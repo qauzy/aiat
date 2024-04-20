@@ -6,8 +6,8 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/adapter/inbound"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Base struct {

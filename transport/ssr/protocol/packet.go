@@ -3,8 +3,8 @@ package protocol
 import (
 	"net"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
 )
 
 type PacketConn struct {

@@ -20,7 +20,7 @@ import (
 	"github.com/metacubex/gopacket"
 	"github.com/metacubex/gopacket/layers"
 
-	"github.com/qauzy/aiat/component/dialer"
+	"github.com/qauzy/netat/component/dialer"
 )
 
 var (

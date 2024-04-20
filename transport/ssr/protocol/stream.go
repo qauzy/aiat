@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/netat/common/pool"
 )
 
 type Conn struct {

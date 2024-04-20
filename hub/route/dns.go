@@ -5,7 +5,7 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/qauzy/aiat/component/resolver"
+	"github.com/qauzy/netat/component/resolver"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

@@ -1,9 +1,9 @@
 package inbound
 
 import (
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/listener/redir"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/listener/redir"
+	"github.com/qauzy/netat/log"
 )
 
 type RedirOption struct {

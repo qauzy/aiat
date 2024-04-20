@@ -7,10 +7,10 @@ import (
 	"strings"
 	"syscall"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/dialer"
-	C "github.com/qauzy/aiat/constant"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/dialer"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Base struct {

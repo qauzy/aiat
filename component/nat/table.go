@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync"
 
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 
 	"github.com/puzpuzpuz/xsync/v2"
 )

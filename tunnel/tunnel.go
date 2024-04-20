@@ -12,16 +12,16 @@ import (
 
 	"github.com/jpillora/backoff"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/nat"
-	P "github.com/qauzy/aiat/component/process"
-	"github.com/qauzy/aiat/component/resolver"
-	"github.com/qauzy/aiat/component/sniffer"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/provider"
-	icontext "github.com/qauzy/aiat/context"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/tunnel/statistic"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/nat"
+	P "github.com/qauzy/netat/component/process"
+	"github.com/qauzy/netat/component/resolver"
+	"github.com/qauzy/netat/component/sniffer"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/provider"
+	icontext "github.com/qauzy/netat/context"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/tunnel/statistic"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"hash/crc32"
 	"net"
 
-	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/netat/common/pool"
 
 	"github.com/zhangyunhao116/fastrand"
 )

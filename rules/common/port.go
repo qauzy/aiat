@@ -3,8 +3,8 @@ package common
 import (
 	"fmt"
 
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
 )
 
 type Port struct {

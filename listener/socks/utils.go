@@ -3,7 +3,7 @@ package socks
 import (
 	"net"
 
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 type packet struct {

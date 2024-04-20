@@ -7,7 +7,7 @@ import (
 	"net/netip"
 	"strconv"
 
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 // Socks addr type

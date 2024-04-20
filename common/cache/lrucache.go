@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/generics/list"
+	"github.com/qauzy/netat/common/generics/list"
 
 	"github.com/samber/lo"
 )

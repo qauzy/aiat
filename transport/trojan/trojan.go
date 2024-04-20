@@ -12,13 +12,13 @@ import (
 	"net/http"
 	"sync"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/component/ca"
-	tlsC "github.com/qauzy/aiat/component/tls"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
-	"github.com/qauzy/aiat/transport/vmess"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/component/ca"
+	tlsC "github.com/qauzy/netat/component/tls"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
+	"github.com/qauzy/netat/transport/vmess"
 )
 
 const (

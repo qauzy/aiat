@@ -2,9 +2,9 @@ package inbound
 
 import (
 	"fmt"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/listener/socks"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/listener/socks"
+	"github.com/qauzy/netat/log"
 )
 
 type SocksOption struct {

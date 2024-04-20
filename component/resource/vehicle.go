@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	clashHttp "github.com/qauzy/aiat/component/http"
-	types "github.com/qauzy/aiat/constant/provider"
+	clashHttp "github.com/qauzy/netat/component/http"
+	types "github.com/qauzy/netat/constant/provider"
 )
 
 type FileVehicle struct {

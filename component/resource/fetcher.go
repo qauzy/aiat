@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	types "github.com/qauzy/aiat/constant/provider"
-	"github.com/qauzy/aiat/log"
+	types "github.com/qauzy/netat/constant/provider"
+	"github.com/qauzy/netat/log"
 
 	"github.com/samber/lo"
 )

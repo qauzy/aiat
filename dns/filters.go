@@ -4,12 +4,12 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/qauzy/aiat/component/geodata"
-	"github.com/qauzy/aiat/component/geodata/router"
-	"github.com/qauzy/aiat/component/mmdb"
-	"github.com/qauzy/aiat/component/trie"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/component/geodata"
+	"github.com/qauzy/netat/component/geodata/router"
+	"github.com/qauzy/netat/component/mmdb"
+	"github.com/qauzy/netat/component/trie"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 )
 
 type fallbackIPFilter interface {

@@ -3,7 +3,7 @@ module clash-test
 go 1.19
 
 require (
-	github.com/qauzy/aiat v0.0.0
+	github.com/qauzy/netat v0.0.0
 	github.com/docker/docker v20.10.21+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/miekg/dns v1.1.55
@@ -11,7 +11,7 @@ require (
 	golang.org/x/net v0.15.0
 )
 
-replace github.com/qauzy/aiat => ../
+replace github.com/qauzy/netat => ../
 
 require (
 	github.com/3andne/restls-client-go v0.1.6 // indirect

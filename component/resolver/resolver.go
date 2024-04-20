@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/component/trie"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/component/trie"
 
 	"github.com/miekg/dns"
 	"github.com/zhangyunhao116/fastrand"

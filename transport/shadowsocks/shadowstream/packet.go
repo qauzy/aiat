@@ -6,8 +6,8 @@ import (
 	"io"
 	"net"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
 )
 
 // ErrShortPacket means the packet is too short to be a valid encrypted packet.

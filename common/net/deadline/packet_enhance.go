@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/qauzy/aiat/common/net/packet"
+	"github.com/qauzy/netat/common/net/packet"
 )
 
 type EnhancePacketConn struct {

@@ -3,9 +3,9 @@ package listener
 import (
 	"fmt"
 
-	"github.com/qauzy/aiat/common/structure"
-	C "github.com/qauzy/aiat/constant"
-	IN "github.com/qauzy/aiat/listener/inbound"
+	"github.com/qauzy/netat/common/structure"
+	C "github.com/qauzy/netat/constant"
+	IN "github.com/qauzy/netat/listener/inbound"
 )
 
 func ParseListener(mapping map[string]any) (C.InboundListener, error) {

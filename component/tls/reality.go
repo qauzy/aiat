@@ -20,9 +20,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/qauzy/aiat/common/utils"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/ntp"
+	"github.com/qauzy/netat/common/utils"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/ntp"
 
 	utls "github.com/sagernet/utls"
 	"github.com/zhangyunhao116/fastrand"

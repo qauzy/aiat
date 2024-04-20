@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/qauzy/aiat/adapter/outbound"
-	"github.com/qauzy/aiat/component/dialer"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/provider"
+	"github.com/qauzy/netat/adapter/outbound"
+	"github.com/qauzy/netat/component/dialer"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/provider"
 )
 
 type Selector struct {

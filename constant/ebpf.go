@@ -3,7 +3,7 @@ package constant
 import (
 	"net/netip"
 
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 const (

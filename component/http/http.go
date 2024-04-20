@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/component/ca"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/listener/inner"
+	"github.com/qauzy/netat/component/ca"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/listener/inner"
 )
 
 func HttpRequest(ctx context.Context, url, method string, header map[string][]string, body io.Reader) (*http.Response, error) {

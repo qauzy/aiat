@@ -18,9 +18,9 @@ import (
 	"github.com/metacubex/quic-go"
 	"github.com/metacubex/quic-go/http3"
 	D "github.com/miekg/dns"
-	"github.com/qauzy/aiat/component/ca"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/component/ca"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 	"golang.org/x/exp/slices"
 	"golang.org/x/net/http2"
 )

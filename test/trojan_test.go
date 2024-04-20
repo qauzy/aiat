@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types/container"
-	"github.com/qauzy/aiat/adapter/outbound"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/adapter/outbound"
+	C "github.com/qauzy/netat/constant"
 	"github.com/stretchr/testify/require"
 )
 

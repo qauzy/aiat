@@ -4,8 +4,8 @@ import (
 	"net"
 	"net/http"
 
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/context"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/context"
 )
 
 // NewHTTPS receive CONNECT request and return ConnContext

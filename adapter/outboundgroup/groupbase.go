@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/adapter/outbound"
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/constant/provider"
-	types "github.com/qauzy/aiat/constant/provider"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/tunnel"
+	"github.com/qauzy/netat/adapter/outbound"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/constant/provider"
+	types "github.com/qauzy/netat/constant/provider"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/tunnel"
 
 	"github.com/dlclark/regexp2"
 )

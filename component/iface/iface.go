@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/common/singledo"
+	"github.com/qauzy/netat/common/singledo"
 )
 
 type Interface struct {

@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/common/batch"
-	"github.com/qauzy/aiat/common/singledo"
-	"github.com/qauzy/aiat/common/utils"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/common/batch"
+	"github.com/qauzy/netat/common/singledo"
+	"github.com/qauzy/netat/common/utils"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
 	"github.com/dlclark/regexp2"
 )

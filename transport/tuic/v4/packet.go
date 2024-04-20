@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/atomic"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/transport/tuic/common"
+	"github.com/qauzy/netat/common/atomic"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/transport/tuic/common"
 
 	"github.com/metacubex/quic-go"
 )

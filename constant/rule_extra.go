@@ -1,7 +1,7 @@
 package constant
 
 import (
-	"github.com/qauzy/aiat/component/geodata/router"
+	"github.com/qauzy/netat/component/geodata/router"
 )
 
 type RuleGeoSite interface {

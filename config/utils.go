@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/adapter/outboundgroup"
-	"github.com/qauzy/aiat/common/structure"
-	clashHttp "github.com/qauzy/aiat/component/http"
+	"github.com/qauzy/netat/adapter/outboundgroup"
+	"github.com/qauzy/netat/common/structure"
+	clashHttp "github.com/qauzy/netat/component/http"
 )
 
 func downloadForBytes(url string) ([]byte, error) {

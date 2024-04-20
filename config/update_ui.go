@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 )
 
 var (

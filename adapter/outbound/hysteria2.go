@@ -9,12 +9,12 @@ import (
 	"runtime"
 	"strconv"
 
-	CN "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/ca"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/proxydialer"
-	C "github.com/qauzy/aiat/constant"
-	tuicCommon "github.com/qauzy/aiat/transport/tuic/common"
+	CN "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/ca"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/proxydialer"
+	C "github.com/qauzy/netat/constant"
+	tuicCommon "github.com/qauzy/netat/transport/tuic/common"
 
 	"github.com/metacubex/sing-quic/hysteria2"
 

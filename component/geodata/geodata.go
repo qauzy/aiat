@@ -3,8 +3,8 @@ package geodata
 import (
 	"fmt"
 
-	"github.com/qauzy/aiat/component/geodata/router"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/component/geodata/router"
+	C "github.com/qauzy/netat/constant"
 )
 
 type loader struct {

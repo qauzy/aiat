@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	atomic2 "github.com/qauzy/aiat/common/atomic"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/common/pool"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
-	"github.com/qauzy/aiat/transport/tuic/common"
+	atomic2 "github.com/qauzy/netat/common/atomic"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/common/pool"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
+	"github.com/qauzy/netat/transport/tuic/common"
 
 	"github.com/metacubex/quic-go"
 	"github.com/puzpuzpuz/xsync/v2"

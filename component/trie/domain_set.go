@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/openacid/low/bitmap"
-	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/netat/common/utils"
 )
 
 const (

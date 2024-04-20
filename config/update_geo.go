@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/qauzy/aiat/component/geodata"
-	_ "github.com/qauzy/aiat/component/geodata/standard"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/component/geodata"
+	_ "github.com/qauzy/netat/component/geodata/standard"
+	C "github.com/qauzy/netat/constant"
 
 	"github.com/oschwald/maxminddb-golang"
 )

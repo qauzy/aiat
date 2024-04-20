@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qauzy/aiat/common/utils"
+	"github.com/qauzy/netat/common/utils"
 
 	"github.com/metacubex/sing-shadowsocks/shadowimpl"
 	"github.com/zhangyunhao116/fastrand"

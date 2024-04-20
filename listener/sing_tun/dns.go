@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/common/pool"
-	"github.com/qauzy/aiat/component/resolver"
-	"github.com/qauzy/aiat/listener/sing"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/pool"
+	"github.com/qauzy/netat/component/resolver"
+	"github.com/qauzy/netat/listener/sing"
+	"github.com/qauzy/netat/log"
 
 	D "github.com/miekg/dns"
 

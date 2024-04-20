@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qauzy/aiat/component/profile/cachefile"
-	"github.com/qauzy/aiat/component/trie"
+	"github.com/qauzy/netat/component/profile/cachefile"
+	"github.com/qauzy/netat/component/trie"
 
 	"github.com/stretchr/testify/assert"
 	"go.etcd.io/bbolt"

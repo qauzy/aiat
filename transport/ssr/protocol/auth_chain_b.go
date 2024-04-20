@@ -4,7 +4,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/qauzy/aiat/transport/ssr/tools"
+	"github.com/qauzy/netat/transport/ssr/tools"
 )
 
 func init() {

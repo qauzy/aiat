@@ -6,8 +6,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/qauzy/aiat/component/ca"
-	tlsC "github.com/qauzy/aiat/component/tls"
+	"github.com/qauzy/netat/component/ca"
+	tlsC "github.com/qauzy/netat/component/tls"
 )
 
 type TLSConfig struct {

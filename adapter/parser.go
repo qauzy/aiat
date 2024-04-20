@@ -3,11 +3,11 @@ package adapter
 import (
 	"fmt"
 
-	tlsC "github.com/qauzy/aiat/component/tls"
+	tlsC "github.com/qauzy/netat/component/tls"
 
-	"github.com/qauzy/aiat/adapter/outbound"
-	"github.com/qauzy/aiat/common/structure"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/adapter/outbound"
+	"github.com/qauzy/netat/common/structure"
+	C "github.com/qauzy/netat/constant"
 )
 
 func ParseProxy(mapping map[string]any) (C.Proxy, error) {

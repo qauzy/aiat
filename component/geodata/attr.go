@@ -3,7 +3,7 @@ package geodata
 import (
 	"strings"
 
-	"github.com/qauzy/aiat/component/geodata/router"
+	"github.com/qauzy/netat/component/geodata/router"
 )
 
 type AttributeList struct {

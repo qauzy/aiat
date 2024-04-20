@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/qauzy/aiat/common/observable"
+	"github.com/qauzy/netat/common/observable"
 
 	log "github.com/sirupsen/logrus"
 )

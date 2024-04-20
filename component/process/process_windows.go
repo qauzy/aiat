@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/qauzy/aiat/common/nnip"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/common/nnip"
+	"github.com/qauzy/netat/log"
 
 	"golang.org/x/sys/windows"
 )

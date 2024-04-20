@@ -2,8 +2,8 @@ package provider
 
 import (
 	"fmt"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 	"strings"
 )
 

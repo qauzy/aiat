@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qauzy/aiat/component/profile"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/component/profile"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/log"
 
 	"go.etcd.io/bbolt"
 )

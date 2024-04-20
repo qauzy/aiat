@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qauzy/aiat/tunnel/statistic"
+	"github.com/qauzy/netat/tunnel/statistic"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

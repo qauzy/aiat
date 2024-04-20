@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/qauzy/aiat/transport/tuic/congestion"
+	"github.com/qauzy/netat/transport/tuic/congestion"
 
 	"github.com/metacubex/quic-go"
 	c "github.com/metacubex/quic-go/congestion"

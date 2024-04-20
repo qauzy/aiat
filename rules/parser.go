@@ -2,10 +2,10 @@ package rules
 
 import (
 	"fmt"
-	C "github.com/qauzy/aiat/constant"
-	RC "github.com/qauzy/aiat/rules/common"
-	"github.com/qauzy/aiat/rules/logic"
-	RP "github.com/qauzy/aiat/rules/provider"
+	C "github.com/qauzy/netat/constant"
+	RC "github.com/qauzy/netat/rules/common"
+	"github.com/qauzy/netat/rules/logic"
+	RP "github.com/qauzy/netat/rules/provider"
 )
 
 func ParseRule(tp, payload, target string, params []string, subRules map[string][]C.Rule) (parsed C.Rule, parseErr error) {

@@ -11,8 +11,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/qauzy/aiat/common/pool"
-	C "github.com/qauzy/aiat/constant"
+	"github.com/qauzy/netat/common/pool"
+	C "github.com/qauzy/netat/constant"
 )
 
 const (

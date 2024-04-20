@@ -7,9 +7,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/qauzy/aiat/common/buf"
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/transport/vless/vision"
+	"github.com/qauzy/netat/common/buf"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/transport/vless/vision"
 
 	"github.com/gofrs/uuid/v5"
 	"google.golang.org/protobuf/proto"

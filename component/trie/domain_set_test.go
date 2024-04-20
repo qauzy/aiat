@@ -3,7 +3,7 @@ package trie_test
 import (
 	"testing"
 
-	"github.com/qauzy/aiat/component/trie"
+	"github.com/qauzy/netat/component/trie"
 	"github.com/stretchr/testify/assert"
 )
 

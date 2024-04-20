@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/transport/socks5"
 
 	"golang.org/x/sys/unix"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/qauzy/aiat/common/atomic"
-	"github.com/qauzy/aiat/component/resolver"
+	"github.com/qauzy/netat/common/atomic"
+	"github.com/qauzy/netat/component/resolver"
 )
 
 var (

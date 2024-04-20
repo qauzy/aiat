@@ -1,10 +1,10 @@
 package hub
 
 import (
-	"github.com/qauzy/aiat/config"
-	"github.com/qauzy/aiat/hub/executor"
-	"github.com/qauzy/aiat/hub/route"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/config"
+	"github.com/qauzy/netat/hub/executor"
+	"github.com/qauzy/netat/hub/route"
+	"github.com/qauzy/netat/log"
 )
 
 type Option func(*config.Config)

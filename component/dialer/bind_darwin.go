@@ -6,7 +6,7 @@ import (
 	"net/netip"
 	"syscall"
 
-	"github.com/qauzy/aiat/component/iface"
+	"github.com/qauzy/netat/component/iface"
 
 	"golang.org/x/sys/unix"
 )

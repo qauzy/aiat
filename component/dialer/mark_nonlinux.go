@@ -7,7 +7,7 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/log"
 )
 
 var printMarkWarnOnce sync.Once

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/qauzy/aiat/component/geodata"
-	"github.com/qauzy/aiat/component/geodata/router"
+	"github.com/qauzy/netat/component/geodata"
+	"github.com/qauzy/netat/component/geodata/router"
 )
 
 type memConservativeLoader struct {

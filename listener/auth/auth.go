@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/qauzy/aiat/component/auth"
+	"github.com/qauzy/netat/component/auth"
 )
 
 var authenticator auth.Authenticator

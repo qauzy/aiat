@@ -3,7 +3,7 @@ package tunnel
 import (
 	"net"
 
-	"github.com/qauzy/aiat/common/pool"
+	"github.com/qauzy/netat/common/pool"
 )
 
 type packet struct {

@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/qauzy/aiat/component/pool"
-	"github.com/qauzy/aiat/transport/shadowsocks/shadowaead"
+	"github.com/qauzy/netat/component/pool"
+	"github.com/qauzy/netat/transport/shadowsocks/shadowaead"
 )
 
 type Pool struct {

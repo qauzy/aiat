@@ -8,12 +8,12 @@ import (
 	"net/netip"
 	"strings"
 
-	N "github.com/qauzy/aiat/common/net"
-	"github.com/qauzy/aiat/component/dialer"
-	"github.com/qauzy/aiat/component/resolver"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/tunnel"
-	"github.com/qauzy/aiat/tunnel/statistic"
+	N "github.com/qauzy/netat/common/net"
+	"github.com/qauzy/netat/component/dialer"
+	"github.com/qauzy/netat/component/resolver"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/tunnel"
+	"github.com/qauzy/netat/tunnel/statistic"
 )
 
 type proxyDialer struct {

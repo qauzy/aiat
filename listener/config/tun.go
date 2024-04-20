@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/netip"
 
-	C "github.com/qauzy/aiat/constant"
+	C "github.com/qauzy/netat/constant"
 
 	"gopkg.in/yaml.v3"
 )

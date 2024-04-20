@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qauzy/aiat/adapter/inbound"
-	C "github.com/qauzy/aiat/constant"
-	"github.com/qauzy/aiat/transport/socks5"
+	"github.com/qauzy/netat/adapter/inbound"
+	C "github.com/qauzy/netat/constant"
+	"github.com/qauzy/netat/transport/socks5"
 )
 
 func newClient(source net.Addr, in chan<- C.ConnContext, additions ...inbound.Addition) *http.Client {

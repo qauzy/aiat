@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/qauzy/aiat/config"
-	"github.com/qauzy/aiat/hub/updater"
-	"github.com/qauzy/aiat/log"
+	"github.com/qauzy/netat/config"
+	"github.com/qauzy/netat/hub/updater"
+	"github.com/qauzy/netat/log"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
